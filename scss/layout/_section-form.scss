@@ -1,0 +1,34 @@
+.section-form{
+	background: url(../img/bg-section-form.jpg) no-repeat;
+
+	background-size: cover;
+	height: 500px;
+}
+.title-form{
+	color: $colorTxForm;
+	text-transform: uppercase;
+	margin: 35px 0 25px 0;
+}
+.form .form-control{
+	width: 100%;
+	border: 1px solid $colorFormBdr;
+	background: transparent;
+	border-radius: 0;
+	color: $colorTxForm;
+	font-size: 14px;
+	font-style: italic;
+}
+.form-group{width: 100%;}
+.form .form-inp{
+	display: block;
+	height: 45px;
+	width: 100%;
+}
+.message{
+	margin: 25px 0;
+	padding: 15px;
+}
+.form .btn-form{
+	border-radius: 0;
+	border: 0;
+}

@@ -1,0 +1,27 @@
+body{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: $colorTextPrimery;
+	background-color: #fffcf4;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 45px;
+	color: $colorTitle;
+}
+h3{
+	font-size: 24px;
+	font-weight: 500;
+	color: $colorTitle;
+}
+h4{
+	font-size: 18px;
+	line-height: 36px;
+	color: #fff;
+}
+img{
+	max-width: 100%;
+}

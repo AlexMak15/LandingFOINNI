@@ -1,0 +1,70 @@
+.contacts{
+	padding: 25px 0 45px 0;
+	background: $colorFooterBg;
+}
+.footer-simpl-text{
+	font-size: 14px;
+	font-weight: 300;
+	color: $colorFooterTx;
+	line-height: 30px;
+}
+.block-quick-links a{
+	color: $colorFooterTx;
+	display: inline-block;
+	padding: 3px 0;
+	font-size: 14px;
+	&:hover{color: darken($colorFooterTx,15%);}
+}
+.block-quick-links ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.col-links{padding: 0;}
+.footer-icon,.footer-icon-2{
+	display: inline-block;
+	color: $footerIconColor;
+	padding: 7px 12px;
+	border: 2px solid $footerIconColor;
+	font-size: 22px;
+	cursor: pointer;
+	margin-right: 6px;
+	&:hover{
+		color: darken($footerIconColor,20%);
+		border-color: darken($footerIconColor,20%);
+	}
+}
+.footer-icon-2{
+	padding: 7px 7px;
+}
+.form-subscribe .form-control{
+	width: 100%;
+	border: 1px solid $colorFormBdr;
+	background: transparent;
+	border-radius: 0;
+	color: $colorTxForm;
+	font-size: 14px;
+	display: block;
+	height: 40px;
+}
+
+.btn-subscribe{
+	line-height: 40px;
+	padding: 0 15px;
+	background: $colorBgBtn;
+	color: #fff;
+	border-radius: 0;
+	border: none;
+	transition: background 0.5s;
+	&:hover{
+		color: #fff;
+		background: darken($colorBgBtn,10%);
+		border: none;
+	}
+}
+.by-author{
+	background: $colorSectByOuthor;
+	p{
+		line-height: 70px;
+	}
+}

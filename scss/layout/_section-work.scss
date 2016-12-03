@@ -1,0 +1,81 @@
+
+.row-img-2{
+	margin-top: 50px;
+}
+.block-control-tab{
+	margin: auto;
+	margin-bottom: 40px;
+	width: 600px;
+	label{
+		margin-right: 30px;
+		padding-bottom: 5px;
+		cursor: pointer;
+		font-size: 18px;
+		font-weight: 300;
+		color: #434243;
+		border-bottom: 1px solid transparent;
+	}
+}
+.input-none{display: none;}
+.block-work{
+	position: relative;
+	height: 830px;
+}
+.work-tab{
+	position: absolute;
+	opacity: 0;
+	transition: opacity .6s;
+}
+.col-sect-work{
+	padding: 0;
+	img{
+		height: auto;
+	}
+}
+
+@keyframes tabShow{
+	0%{transform: translateY(-30px);}
+  100%{transform: translateY(0px);}
+}
+#tabs-work-1:checked~.block-control-tab label:nth-of-type(1),
+#tabs-work-2:checked~.block-control-tab label:nth-of-type(2),
+#tabs-work-3:checked~.block-control-tab label:nth-of-type(3),
+#tabs-work-4:checked~.block-control-tab label:nth-of-type(4),
+#tabs-work-5:checked~.block-control-tab label:nth-of-type(5){
+	color: #1dde85;
+	border-bottom: 1px solid #1dde85;
+}
+#tabs-work-1:checked~.block-work .work-tab-all,
+#tabs-work-2:checked~.block-work .work-tab-des,
+#tabs-work-3:checked~.block-work .work-tab-manip,
+#tabs-work-4:checked~.block-work .work-tab-photo,
+#tabs-work-5:checked~.block-work .work-tab-dev{
+	opacity: 1;
+	animation: tabShow 0.6s;
+}
+#tabs-work-1:checked~.block-work{
+	height: 1640px;
+}
+.blk-btn{
+	margin-top: 45px;
+}
+.blk-btn .bttn{
+	text-decoration: none;
+	transition: background 0.5s;
+	font-weight: 100;
+	font-size: 16px;
+	display: inline-block;
+}
+.btn-large:hover{
+	color: $colorTextBtn;
+	background: darken($colorBgBtn,10%);
+	text-decoration: none;
+}
+.btn-large{
+	padding: 0 59px;
+	line-height: 50px;
+	background: $colorBgBtn;
+	color: $colorTextBtn;
+	transition: background 0.5s;
+}
+

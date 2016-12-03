@@ -1,0 +1,78 @@
+.section-price{margin-bottom: 125px;}
+.block-price{
+	border: 1px solid transparent;
+	font-size: 14px;
+	font-weight: 300;
+	transition: all 0.5s;
+	.title-pr{
+		margin-bottom: 25px;
+	}
+}
+.col-price{
+	padding: 0 7px;
+}
+.cont-price{
+	padding: 28px 0;
+	border: 1px solid $colorBordPrice;
+	color: $colorPrice;
+	transition: all 0.5s;
+	.icon-dolr{
+		font-size: 25px;
+		vertical-align: 10px;
+	}
+	.price{
+		font: 30px $fontSecondary2;
+		font-weight: 400;
+	}
+	.price-tx-m{
+		font: 14px $fontSecondary2;
+	}
+}
+
+.price-option{
+	margin: 30px 0 25px 0;
+	p{
+		margin-bottom: 0;
+		line-height: 36px;
+		color: $colorPrTxOption;
+	}
+}
+.blk-btn .btn-price{
+	line-height: 40px;
+	border: 1px solid $colorPrBtnBdr;
+	color: $colorPrBtnTxt;
+	padding: 0 15px;
+	margin-bottom: 20px;
+	margin-top: -40px;
+}
+
+.block-text-price{
+	border: 1px solid transparent;
+	transition: all 0.5s;
+}
+.block-price:hover{
+	.title-pr{color: #1dde85;}
+	.block-text-price{
+		border: 1px solid #1dde85;
+	}
+	.block-text-price .cont-price{
+		background: #1dde85;
+		border: 1px solid #1dde85;
+		color: #fff;
+	}
+	.block-text-price{
+		border: 1px solid #1dde85;
+	}
+	.blk-btn .btn-price{
+		background: $colorBgBtn;
+		border: 1px solid $colorBgBtn;
+		color: #fff;
+	}
+}
+
+
+
+
+
+
+

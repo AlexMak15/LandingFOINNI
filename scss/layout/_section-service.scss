@@ -1,0 +1,42 @@
+.section-mg-t{
+	margin-top: 100px;
+}
+.cont-welcome-text{
+	.text-foinni-2{
+		color: #1dde85;
+		text-transform: uppercase;
+	}
+	p{
+		font-size: 18px;
+		font-weight: 300;
+	}
+}
+.services{
+	margin-top: 70px;
+}
+.service-block{
+	border: 2px solid #cbc9c6;
+	padding: 25px 5px;
+	.icon-service{
+		font-size: 33px;
+		color: $colorIconService;
+	}
+	h3{
+		margin-bottom: 35px;
+	}
+	p{
+		font-weight: 300;
+	}
+}
+.service-block:hover,
+.service-block:hover .icon-service,
+.service-block:hover h3{
+	border-color: #1dde85;
+	color: #1dde85;
+}
+.service-block:hover p{
+	color: #585757;
+}
+.block-service-2{
+	margin-top: 45px;
+}
